@@ -5,7 +5,6 @@ class UsersController < ApplicationController
   end
 
   def show
-    raise current_user.inspect
     @user = User.find(params[:id])
     authorize @user
   end
