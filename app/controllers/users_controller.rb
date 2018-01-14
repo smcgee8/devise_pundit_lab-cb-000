@@ -10,4 +10,7 @@ class UsersController < ApplicationController
     authorize @user
   end
 
+  def update
+  end
+
 end
